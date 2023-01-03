@@ -99,11 +99,13 @@ color: #F4F4FD;
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+    border-top: none
 }
 .page-header-container {
  display: flex;
  align-items: center;
- 
+
 }
 
 .header-navigation {
@@ -124,7 +126,9 @@ color: #F4F4FD;
     display: flex;
     margin-left: auto;
 }
-
+.contact > .contact-item:not(:last-child) {
+    margin-right: 40px;
+}
 .header-link {
 font-weight: 500;
 line-height: 1.5;
@@ -143,7 +147,6 @@ color: var(--headline-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    margin-right: 40px;
 }
 
 .post-box:hover,
@@ -259,8 +262,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--headline-color);
-max-width: 324px;
-margin: auto;
+text-align: center;
 margin-bottom: 72px;
 }
 
@@ -289,8 +291,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--headline-color);
-max-width: 163px;
-margin: auto;
+text-align: center;
 margin-bottom: 72px;
 }
 
@@ -319,7 +320,9 @@ margin-bottom: 32px;
 .section-portfolio {
     padding-bottom: 120px;
 }
-
+.promo-section {
+    padding-top: 96px;
+}
 .promo-content {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -337,18 +340,19 @@ margin-bottom: 32px;
 
 .btn-wrap {
 display: flex;
-padding-top: 96px;
-padding-bottom: 72px;
-align-items: center;
-justify-content: center;
-align-content:center
+flex-wrap: wrap;
+gap: 24px;
+margin-bottom: 72px;
+justify-content: center
 }
+
 
 .btn {
 padding: 12px 24px;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
-margin-right: 24px;
+
+
 
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -424,6 +428,8 @@ color: var(--text-color);
 /* ============================== FOOTER ====================================== */
 .footer {
     background: var(--background-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-text {
