@@ -11,7 +11,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
-   }
+    }
+
    button {
     cursor: pointer;
    }
@@ -32,9 +33,11 @@ body {
     margin-bottom: 0;
     padding-left: 0;
    }
+
    img {
     display: block;
    }
+
    .container {
     width: 1158px;
     margin-left: auto;
@@ -43,22 +46,21 @@ body {
     padding-right: 15px;
     /* outline: 1px solid red; */
    }
+
    .section {
     padding-top: 120px;
     padding-bottom: 120px;
    }
    
-.list {
+    .list {
     list-style: none;
-}
-.link {
+    }
+
+    .link {
     text-decoration: none;
-}
+    }
 
 /*=================================== LOGO ====================================*/
-.logo-studio {
-    margin-right: 76px;
-}
 
 .logo {
 font-family: 'Raleway', sans-serif;
@@ -72,6 +74,8 @@ color: #4D5AE5;
 }
 
 .logo-studio {
+margin-right: 76px;
+
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -102,6 +106,7 @@ color: #F4F4FD;
     border-bottom: 1px solid #E7E9FC;
     border-top: none
 }
+
 .page-header-container {
  display: flex;
  align-items: center;
@@ -129,6 +134,7 @@ color: #F4F4FD;
 .contact > .contact-item:not(:last-child) {
     margin-right: 40px;
 }
+
 .header-link {
 font-weight: 500;
 line-height: 1.5;
@@ -204,7 +210,6 @@ background-color: #4D5AE5;;
 color: var(--btn-hover-color);
 }
 
-
 .hero-btn:hover,
 .hero-btn:focus {
     background-color:#404BBF;
@@ -219,6 +224,7 @@ color: var(--btn-hover-color);
     align-items: center;
     gap: 24px;
 }
+
 .item-wrap {
     flex-basis: calc((100%-24px) / 4)
 }
@@ -320,9 +326,11 @@ margin-bottom: 32px;
 .section-portfolio {
     padding-bottom: 120px;
 }
+
 .promo-section {
     padding-top: 96px;
 }
+
 .promo-content {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -346,15 +354,10 @@ margin-bottom: 72px;
 justify-content: center
 }
 
-/* .btn-item {
-
-} */
-
 .btn {
 padding: 12px 24px;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
-
 
 
 font-family: 'Roboto', sans-serif;
